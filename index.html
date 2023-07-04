@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"rel="stylesheet"/>
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+  <h1>Student Management CRUD</h1>
+        <!-- Student Form -->
+        <form id="addStudentForm">
+          <div class="container">
+          
+            <input type="text" id="name" placeholder="Name" name="name" required>
+
+            <input type="email" id="email" placeholder="Email" name="email" required>
+
+            <input type="text" id="grade" placeholder="GPA" name="grade" required>
+
+            <input type="number" id="age" placeholder="Age" name="age" required>
+
+            <input type="text" id="degree" placeholder="Degree" name="degree" required>
+          
+          </div>
+
+          <button type="btn" id="addStudentBtn">Add Student</button>
+        </form>
+
+         <!-- Search Box -->
+         <input type="text" id="searchInput" name="searchInput" placeholder="Search by Name, email or degree">
+
+         <!-- Student Table -->
+         <table border="1">
+             <thead>
+                 <tr>
+                     <th>ID</th>
+                     <th>Student Name</th>
+                     <th>Email</th>
+                     <th>Age</th>
+                     <th>GPA</th>
+                     <th>Degree</th>
+                 </tr>
+             </thead>
+             <tbody id="studentTableBody">
+                 <!-- Student data -->
+             </tbody>
+         </table>
+         </main>
+     
+     <script src="script.js"></script>
+</body>
+</html>
+
+

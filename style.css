@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    background-color: rgba(17, 17, 17, 1);
+}
+
+h1 {
+    font-weight: 400;
+    text-align: Left;
+    margin: 20px;
+}
+
+form{
+    margin: 40px 0px 10px 20px;
+}
+
+form > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 25vw;
+    height: 25px;
+}
+
+
+
+#addStudentBtn {
+    width: 30vw;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: scale 300ms ease-in-out;
+  }
+
+#addStudentBtn:hover {
+    scale: 0.97;
+}
+
+#searchInput{
+    display: block;
+    width:90%;
+    margin:60px 0px 40px 20px;
+}
+
+table {
+    width: 90%;
+    /*border: 1px solid #ccc;*/
+    border-collapse: collapse;
+    /*color: white;*/
+    margin-left: 20px;
+}
+
+th, td {
+    /*border: 1px solid #ccc;*/
+    padding: 5px;
+    text-align: center;
+}
+
+#degree-box {
+    display: flex;
+    justify-content: space-between;
+}
+  
+#degree-box img {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#degree-box img:hover {
+    opacity: 0.7;
+}
+
+.edit-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
